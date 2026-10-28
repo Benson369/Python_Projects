@@ -1,0 +1,14 @@
+num = 30
+
+for i in range(num):
+    current_num = i
+
+    if current_num % 3 == 0 and current_num % 5 == 0:
+        print('FizzBuzz')
+    elif current_num % 3 == 0:
+        print('Fizz')
+    elif current_num % 5 == 0:
+        print('Buzz')
+
+    else:
+        print(current_num)
